@@ -1,0 +1,64 @@
+.chat-screen {
+   margin-left: 10px;
+}
+
+.chat-screen-message {
+   display: flex;
+   align-items: center;
+   padding: 20px;
+}
+
+.chat-screen-text {
+    margin-left: 10px;
+    background-color: lightgray;
+    padding: 15px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.chat-screen-messages {
+    overflow-y: auto;
+}
+
+.chat-screen-avatar {
+
+}
+
+.chat-screen-timestamp {
+    text-align: center;
+    padding: 20px;
+    color: gray;
+}
+
+
+.chat-screen-text-self {
+    margin-left: auto;
+    margin-right: 10px;
+    background-color: #29b3cd;
+    padding: 15px;
+    border-radius: 20px;
+    color: white;
+}
+
+.chat-screen-form {
+    display: flex;
+    padding: 5px;
+    position: fixed;
+    bottom: 5px;
+    width: 100%;
+    border-top: 1px solid lightgray;
+}
+
+.chat-screen-input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    margin-right: 20px;
+}
+
+.chat-screen-button {
+    display: none;
+    margin-right: 20px;
+    background-color: white;
+    color: red;
+}
